@@ -6,3 +6,7 @@ This repository contains notes, small experiments, and practice projects created
 
 ## Status
 Work in progress. Content may be incomplete, revised, or reorganized as my understanding develops.
+
+22-03-2026: Started learning coding with Python programming language. Source: YouTube. (YT channel: Bro Code)
+
+
