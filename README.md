@@ -1,5 +1,6 @@
 # learning-log
 This repository documents my early-stage learning in programming and computational biology. 
+
 (Note: This also serves a purpose of "mock" repository as I am just exploring this to get used to this platform. You won't really find anything impressive other than my notes on things I am learning. However, feel free to check it out.😊)
 
 ## Scope
