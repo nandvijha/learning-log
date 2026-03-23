@@ -76,35 +76,30 @@ print(name)
 print("")
 
 #(User) input() = A function that prompts the user to enter data
-#                 Returns the entered data as string.
-#name = input("What is your name?")
-#age = int(age) This is extra line. No need for this. Instead:
-#age = int(input("How old are you?")) #We can do this and it works the same.
-#age = age + 1 #We can use str() with arithmatic operations. Change it to int or float.
-#print(f"Hello,{name}!")
-#print("Happy birthday!")
-#print(f"You are {age} years old.")
-#print("")
+                 #Returns the entered data as string.
+name = input("What is your name?")
+age = int(age) This is extra line. No need for this. Instead:
+age = int(input("How old are you?")) #We can do this and it works the same.
+age = age + 1 #We can use str() with arithmatic operations. Change it to int or float.
+print(f"Hello,{name}!")
+print("Happy birthday!")
+print(f"You are {age} years old.")
+print("")
 
 #Arithmatic and Maths
 friends = 10
-#(friends = friends + 1)......OR:
-#friends +=                                     #augmentated assignment operator for addition
-
-#friends = friends - 2
-#friends -= 2                                   #for substraction
-
-#friends = friends * 3
-#friends *= 3                                   #multiplication
-
-#friends = friends / 2
-#friends /= 2                                   #division
-
-#friends = friends ** 2
-#friends **= 2                                  #expontents
-
-#remainder = friends % 2                        #modulus
-#print(remainder)
+friends = friends + 1
+friends += 1                                   #augmentated assignment operator for addition
+friends = friends - 2
+friends -= 2                                   #for substraction
+friends = friends * 3
+friends *= 3                                   #multiplication
+friends = friends / 2
+friends /= 2                                   #division
+friends = friends ** 2
+friends **= 2                                  #expontents
+remainder = friends % 2                        #modulus
+print(remainder)
 print(friends)
 print("")
 
@@ -112,20 +107,20 @@ print("")
 x = 3.14
 y = 4
 z = 5
-#result = round(x)                             #round function
-#result = abs(y)                               #absolute value function
-#result = pow(4, 3)                            #power function, raise the base of the number to certain value
-#result = max(x, y, z)                         #maximum value function
-#result = min(x, y, z)                         #minimum value function
-#print(result)
+result = round(x)                             #round function
+result = abs(y)                               #absolute value function
+result = pow(4, 3)                            #power function, raise the base of the number to certain value
+result = max(x, y, z)                         #maximum value function
+result = min(x, y, z)                         #minimum value function
+print(result)
 import math
-# print(math.pi)
-# print(math.e)
-#x = 16
-#result = math.sqrt(x)                        #squareroot functions
-#result = math.ceil(x)                        #used for rounding up floats
-#result = math.floor(x)                       #rounding down
-#print(result)
+print(math.pi)
+print(math.e)
+x = 16
+result = math.sqrt(x)                        #squareroot functions
+result = math.ceil(x)                        #used for rounding up floats
+result = math.floor(x)                       #rounding down
+print(result)
 
 
 # if + Do some code only IF some condition is TRUE, else do something else
