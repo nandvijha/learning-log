@@ -5,7 +5,7 @@
 length = float(input("Enter the length: ")) #float * float = possible
 width = int(input("Enter the width: ")) #integer * integer + possible
 area = length * width #Can't multiply string. float * integer = possible
-print(f"The area is: {area} cm².") #to add superscript: Num lock(on); hold Alt + (type)0178.
+print(f"The area is: {area} cm².")
 print("")
 print("")
 print("")
