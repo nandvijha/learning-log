@@ -78,7 +78,7 @@ print("")
 #(User) input() = A function that prompts the user to enter data
                  #Returns the entered data as string.
 name = input("What is your name?")
-age = int(age) This is extra line. No need for this. Instead:
+age = int(age) #This is extra line. No need for this. Instead:
 age = int(input("How old are you?")) #We can do this and it works the same.
 age = age + 1 #We can use str() with arithmatic operations. Change it to int or float.
 print(f"Hello,{name}!")
@@ -167,12 +167,13 @@ else:
 #                    not = inverts the condition (not False, not True)
 temp = 30
 # or operator
-is_raining = True
+is_raining = False
 if temp > 35 or temp < 0 or is_raining:
     print("The outdoor event is canceled.")
 else:
     print("The outdoor event is still scheduled.")
 # and operator   
+is_sunny = True
 if temp >= 28 and is_sunny:      #in order to operate this code, both conditions need to be true.
     print("It is hot and sunny outside.")
 elif temp <= 0 and is_sunny:
