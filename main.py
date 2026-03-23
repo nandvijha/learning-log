@@ -159,3 +159,31 @@ if online:
     print("Yes, they are online.")
 else:
     print("No, they are not online.")
+    
+
+#Logical Operators = evaluate multiple conditions (or, and, not)
+#                    or = at least one condition must be true
+#                    and = both conditions must be true
+#                    not = inverts the condition (not False, not True)
+temp = 30
+# or operator
+is_raining = True
+if temp > 35 or temp < 0 or is_raining:
+    print("The outdoor event is canceled.")
+else:
+    print("The outdoor event is still scheduled.")
+# and operator   
+if temp >= 28 and is_sunny:      #in order to operate this code, both conditions need to be true.
+    print("It is hot and sunny outside.")
+elif temp <= 0 and is_sunny:
+    print("It is cold as well as sunny outside.")
+elif 28> temp> 0 and is_sunny:
+    print("It is warm outside.")
+# not operator    
+elif temp >= 28 and not is_sunny:     
+    print("It is hot outside.")
+    print("It is cloudy outside.")
+elif temp <= 0 and not is_sunny:
+    print("It is cold as well as cloudy outside.")
+elif 28> temp> 0 and not is_sunny:
+    print("It is warm and cloudy outside.")
