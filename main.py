@@ -123,13 +123,39 @@ result = math.floor(x)                       #rounding down
 print(result)
 
 
+# If-Else statements: Conditional statements
 # if + Do some code only IF some condition is TRUE, else do something else
 age = int(input("What is your age?"))
 if age >= 100:
-    print("Congratulations, you are a century old! But you can't sign in.")
+    print("Congratulations, you are a century old! But you can't sign in.")  
 elif age >= 18:
     print("You are now signed up.")
 elif age < 0:
     print("You haven't been born yet.")
 else:
     print("You must be 18+ to sign up.")
+
+response = input("Would you like food? (Y/N): ")
+if response == "Y":         #to check two value are equals, you'll use ==
+    print("Have some food!.")
+else:
+    print("No food for you.")
+
+name = input("Enter your name: ")
+
+if name == "":
+    print("I SAID, ENTER YOUR NAME!")
+else:
+    print(f"Hello, {name}!")
+
+for_sale = True
+if for_sale:
+    print("This is for sale!")
+else:
+    print("This is NOT for sale!")
+
+online = False
+if online:
+    print("Yes, they are online.")
+else:
+    print("No, they are not online.")
