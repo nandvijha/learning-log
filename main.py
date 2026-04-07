@@ -1,4 +1,4 @@
-#This is my first Python program
+#This is my first Python program and these are my notes for reference
 print("Hey, girl!")
 # Variable = A container for a value (string, integer, float, boolean)
 # A variable behaves as if it was the value it contains.
